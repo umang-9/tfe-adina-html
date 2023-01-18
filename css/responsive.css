@@ -1,0 +1,3066 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+    *** min-width media queries
+*/
+@media (min-width: 1200px) {
+  .breath_banner {
+    min-height: 540px;
+  }
+
+  .breath_txt {
+    max-width: 570px;
+  }
+
+  .flavour_content_wrap .flav_img_wrap {
+    padding-right: 26px;
+  }
+
+  .error_404_section {
+    height: calc(100vh - 186px);
+  }
+}
+
+@media (min-width: 1366px) {
+  .container {
+    max-width: 1195px;
+  }
+
+  .breath_banner {
+    min-height: 580px;
+  }
+
+  .lux_content_wrap .lux_content_txt {
+    padding-right: 60px;
+  }
+
+  .flavour_content_wrap .flav_img_wrap {
+    padding-right: 30px;
+  }
+
+  .flav_content_txt {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .error_404_section {
+    height: calc(100vh - 195px);
+  }
+
+  .filter_content .filter_image {
+    height: 325px;
+  }
+
+  /* .breath_txt
+  {
+    max-width: 570px;
+  } */
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1295px;
+  }
+
+  .breath_banner {
+    min-height: 638px;
+  }
+
+  .breath_txt {
+    max-width: 650px;
+  }
+
+  .lux_content_wrap .lux_content_txt {
+    padding-right: 110px;
+  }
+
+  .flavour_content_wrap .flav_img_wrap {
+    padding-right: 40px;
+  }
+
+  .flav_content_txt {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .sydney_style_section .sydney_style_bg {
+    min-height: 800px;
+  }
+
+  .flavour_content_wrap .primary_title h2 {
+    white-space: nowrap;
+  }
+
+  .content_section.p_left {
+    padding-right: 0;
+  }
+
+  .filter_content .filter_image {
+    height: 354px;
+  }
+
+}
+
+/*
+    *** max-width media queries
+*/
+@media (max-width: 1365px) {
+
+  h1,
+  .h1 {
+    font-size: 3.5rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 3.2rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 3rem;
+  }
+
+  h4,
+  .h4 {
+    font-size: 2.5rem;
+  }
+
+  h5,
+  .h5 {
+    font-size: 1.8rem;
+  }
+
+  h6,
+  .h6 {
+    font-size: 1.6rem;
+  }
+
+  .site-header .navbar {
+    padding: 1.5rem;
+  }
+
+  .site-header .navbar-nav .nav-link {
+    font-size: 1.8rem;
+    padding: 15px 27px 15px 25px;
+  }
+
+  .primary_title h2 {
+    font-size: 4.2rem;
+  }
+
+  .banner-section.home {
+    min-height: 750px;
+  }
+
+  .banner-caption p {
+    max-width: 555px;
+  }
+
+  .sydney_style_section .sydney_style_bg {
+    min-height: 650px;
+  }
+
+  .filter_content .filter_image {
+    height: 310px;
+  }
+
+  .booking_main_wrap .room_title_image {
+    flex: 0 0 400px;
+    max-width: 400px;
+  }
+
+  .booking_main_wrap .room_facilities_info {
+    flex: 0 0 calc(100% - 400px);
+    max-width: calc(100% - 400px);
+  }
+
+  .room_facilitie_modal .modal-dialog {
+    max-width: 1160px;
+  }
+
+  .room_facilitie_modal .modal-body {
+    padding: 40px 40px 30px;
+  }
+
+  .room_facilitie_modal .btn-close {
+    top: 30px;
+    right: 30px;
+    font-size: 28px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .room_title h3 {
+    font-size: 3rem;
+  }
+
+  .booking_slider>button.slick-arrow.slick-prev {
+    left: 440px;
+  }
+
+  .room_facilitie_modal .modal {
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 1199px) {
+
+  h1,
+  .h1 {
+    font-size: 3.2rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 3rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 2.8rem;
+  }
+
+  h4,
+  .h4 {
+    font-size: 2rem;
+  }
+
+  h5,
+  .h5 {
+    font-size: 1.8rem;
+  }
+
+  h6,
+  .h6 {
+    font-size: 1.6rem;
+  }
+
+  .navbar-collapse.show {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #nav-icon2,
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 22px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    margin-left: 20px;
+    z-index: 10;
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  #nav-icon2:focus {
+    outline: none;
+  }
+
+  #nav-icon2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5.5px;
+    bottom: 0;
+    width: 39px;
+    height: 39px;
+    background-color: red;
+    margin: auto;
+    background-color: #CCA88B;
+    opacity: 0;
+  }
+
+  #nav-icon2[aria-expanded="true"]:before {
+    opacity: 0.3;
+  }
+
+  #nav-icon2 span,
+  .navbar-toggler-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    background: #fff;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+  #nav-icon2 span:nth-child(even),
+  .navbar-toggler-icon span:nth-child(even) {
+    left: 50%;
+    border-radius: 0 9px 9px 0;
+  }
+
+  #nav-icon2 span:nth-child(odd),
+  .navbar-toggler-icon span:nth-child(odd) {
+    left: 0px;
+    border-radius: 9px 0 0 9px;
+  }
+
+  #nav-icon2 span:nth-child(1),
+  #nav-icon2 span:nth-child(2),
+  .navbar-toggler-icon span:nth-child(1),
+  .navbar-toggler-icon span:nth-child(2) {
+    top: 0px;
+  }
+
+  #nav-icon2 span:nth-child(3),
+  #nav-icon2 span:nth-child(4),
+  .navbar-toggler-icon span:nth-child(3),
+  .navbar-toggler-icon span:nth-child(4) {
+    top: 9px;
+  }
+
+  #nav-icon2 span:nth-child(5),
+  #nav-icon2 span:nth-child(6),
+  .navbar-toggler-icon span:nth-child(5),
+  .navbar-toggler-icon span:nth-child(6) {
+    top: 18px;
+  }
+
+  #nav-icon2[aria-expanded="true"] span:nth-child(1),
+  #nav-icon2[aria-expanded="true"] span:nth-child(6),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(1),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #nav-icon2[aria-expanded="true"] span:nth-child(2),
+  #nav-icon2[aria-expanded="true"] span:nth-child(5),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(2),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #nav-icon2[aria-expanded="true"] span:nth-child(1),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(1) {
+    left: 5px;
+    top: 7px;
+  }
+
+  #nav-icon2[aria-expanded="true"] span:nth-child(2),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(2) {
+    left: calc(50% - 5px);
+    top: 7px;
+  }
+
+  #nav-icon2[aria-expanded="true"] span:nth-child(3),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+  }
+
+  #nav-icon2[aria-expanded="true"] span:nth-child(4),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+  }
+
+  #nav-icon2[aria-expanded="true"] span:nth-child(5),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(5) {
+    left: 5px;
+    top: 12px;
+  }
+
+  #nav-icon2[aria-expanded="true"] span:nth-child(6),
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon span:nth-child(6) {
+    left: calc(50% - 5px);
+    top: 12px;
+  }
+
+  .header-right,
+  .navbar-brand {
+    z-index: 10;
+    position: relative;
+  }
+
+  .navbar-collapse {
+    width: 375px;
+    max-width: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0;
+    bottom: 0px;
+    background-color: #003038;
+    -webkit-box-shadow: -2px 0 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 0 5px 0 rgba(0, 0, 0, 0.1);
+    display: block !important;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+    visibility: hidden;
+    opacity: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9;
+    padding-top: 100px;
+  }
+
+  .site-header .navbar-nav .nav-item:after {
+    display: none;
+  }
+
+  .site-header .navbar-nav .nav-item {
+    padding: 0;
+  }
+
+  .dropdown-menu {
+    left: auto;
+    background-color: #1B1A24;
+  }
+
+  .dropdown-item {
+    color: #fff;
+    font-size: 1.4rem;
+    background-color: #1B1A24;
+    padding: 10px 20px;
+  }
+
+  .site-header .navbar-nav .nav-link[aria-expanded="true"]:before {
+    left: 0;
+    right: 0;
+  }
+
+  .site-header .btn {
+    font-size: 1.4rem;
+    padding: 12px 20px;
+  }
+
+  .site-header .navbar {
+    padding: 15px 20px;
+  }
+
+  .site-header .navbar-nav .nav-link {
+    font-size: 1.8rem;
+    padding: 15px 20px;
+  }
+
+  .banner-section.home {
+    min-height: 680px;
+  }
+
+  .banner-caption h1.banner-title {
+    font-size: 4.5rem;
+    line-height: 52px;
+    margin-bottom: 25px;
+  }
+
+  .banner-caption {
+    max-width: 600px;
+  }
+
+  .banner-caption p {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+
+  .breath_banner {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .primary_content p {
+    font-size: 1.6rem;
+  }
+
+  .breath_banner {
+    padding-left: 6.5%;
+    min-height: 500px;
+  }
+
+  .breath_txt {
+    max-width: 510px;
+  }
+
+  .primary_title h2 {
+    font-size: 4rem;
+  }
+
+  .p-8 {
+    padding: 5rem 0;
+  }
+
+  .multi_link a {
+    font-size: 1.6rem;
+  }
+
+  .arrive_content_wrap .lux_img {
+    padding: 100px 0 100px 60px;
+  }
+
+  .arrive_content_wrap .lux_content_txt {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .get_form_bg {
+    padding: 100px 0;
+  }
+
+  .get_form_wrap .form_title p.sub_title {
+    font-size: 1.6rem;
+  }
+
+  .big_cut.left_cut {
+    -webkit-clip-path: var(--big-left-cut-lg);
+    clip-path: var(--big-left-cut-lg);
+  }
+
+  .big_cut.right_cut {
+    -webkit-clip-path: var(--big-right-cut-lg);
+    clip-path: var(--big-right-cut-lg);
+  }
+
+  .small_cut.left_cut {
+    -webkit-clip-path: var(--small-left-cut-lg);
+    clip-path: var(--small-left-cut-lg);
+  }
+
+  .small_cut.right_cut {
+    -webkit-clip-path: var(--small-right-cut-lg);
+    clip-path: var(--small-right-cut-lg);
+  }
+
+  .hlimg_cut.left_cut {
+    -webkit-clip-path: var(--hlimg-left-cut-lg);
+    clip-path: var(--hlimg-left-cut-lg);
+  }
+
+  .hlimg_cut.right_cut {
+    -webkit-clip-path: var(--hlimg-right-cut-lg);
+    clip-path: var(--hlimg-right-cut-lg);
+  }
+
+  .hlMain_cut.left_cut {
+    -webkit-clip-path: var(--hlMain-left-cut-lg);
+    clip-path: var(--hlMain-left-cut-lg);
+  }
+
+  .hlMain_cut.right_cut {
+    -webkit-clip-path: var(--hlMain-right-cut-lg);
+    clip-path: var(--hlMain-right-cut-lg);
+  }
+  .ampImage_cut.left {
+    -webkit-clip-path: var(--ampImage-left-cut-lg);
+    clip-path: var(--ampImage-left-cut-lg);
+  }
+  
+  .ampImage_cut.right_cut {
+    -webkit-clip-path: var(--ampImage-right-cut-lg);
+    clip-path: var(--ampImage-right-cut-lg);
+  }
+  .bigMob_cut.left_cut {
+    -webkit-clip-path: var(--bigMob-left-cut-lg);
+    clip-path: var(--bigMob-left-cut-lg);
+  }
+  
+  .bigMob_cut.right_cut {
+    -webkit-clip-path: var(--bigMob-right-cut-lg);
+    clip-path: var(--bigMob-right-cut-lg);
+  }
+  .sStyle_cut.left_cut {
+    -webkit-clip-path: var(--sStyle-left-cut-lg);
+    clip-path: var(--sStyle-left-cut-lg);
+  }
+  
+  .sStyle_cut.right_cut {
+    -webkit-clip-path: var(--sStyle-right-cut-lg);
+    clip-path: var(--sStyle-right-cut-lg);
+  }
+  .live_desti_content {
+    margin-top: 0;
+    padding: 28vw 0 45vw 0;
+  }
+
+  .live_desti_wrap .lux_content_txt {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .live_desti_image {
+    bottom: 0;
+    height: auto;
+    top: auto;
+  }
+
+  .shape_right_wrap {
+    height: 150px;
+    width: 150px;
+  }
+
+  .banner_section_wrap .banner-caption h2 {
+    font-size: 4rem;
+    line-height: 130%;
+  }
+
+  .banner_section_wrap .banner-caption {
+    max-width: 600px;
+  }
+
+  .search_btn a {
+    font-size: 1.6rem;
+    padding: 18px 45px 18px 42px;
+  }
+
+  .sydney_form_wrap .search_btn a {
+    padding: 18px 15px 18px 15px;
+  }
+
+  .listing_right_cut {
+    -webkit-clip-path: var(--hotel_listing_rightcut-lg);
+    clip-path: var(--hotel_listing_rightcut-lg);
+  }
+
+  .booking_list_image {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 260px;
+    flex: 0 0 260px;
+    max-width: 260px;
+    /* height: 310px; */
+  }
+
+  .booking_single_wrap .booking_list_image {
+    /* height: 310px; */
+  }
+
+  .booking_list_content {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(100% - 260px);
+    flex: 0 0 calc(100% - 260px);
+    max-width: calc(100% - 260px);
+  }
+
+  .booking_list_content .list_content_wrap_left {
+    padding-right: 20px;
+  }
+
+  .booking_list_content {
+    padding: 50px 60px 50px 30px;
+  }
+
+  .list_content_wrap_left h3.title {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+  }
+
+  .price_content .price span {
+    font-size: 18px;
+  }
+
+  .price_section_wrap .price_content {
+    padding: 10px;
+  }
+
+  .booking_list_content .right_price_section {
+    max-width: 150px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 150px;
+    flex: 0 0 150px;
+  }
+
+  .booking_list_content .list_content_wrap_left {
+    max-width: calc(100% - 150px);
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(100% - 150px);
+    flex: 0 0 calc(100% - 150px);
+  }
+
+  .list_content_wrap_left .content_txt {
+    margin-bottom: 20px;
+  }
+
+  .list_content_wrap_left .primary_content .multi_link {
+    margin-top: 20px;
+  }
+
+  .sydney_form_section .sydney_form_wrap {
+    padding: 80px 0;
+  }
+
+  .book_room_btn a {
+    padding: 15px 25px 15px 25px;
+  }
+
+  /* .booking_single_wrap .listing_image_right_cut {
+    -webkit-clip-path: var(--hotel_listing_rightcut-lg);
+    clip-path: var(--hotel_listing_rightcut-lg)
+  } */
+
+  .error_404_section {
+    height: calc(100vh - 183px);
+  }
+
+  .amplify_single_wrap .list_image_wrap {
+    flex: 0 0 310px;
+    max-width: 310px;
+  }
+/* 
+  .amplify_single_wrap .list_image_wrap {
+    height: 350px;
+  } */
+  .amplify_single_wrap .list_image_wrap
+  {
+    min-height:350px;
+  }
+  .amplify_single_wrap .list_content_wrap {
+    flex: 0 0 calc(100% - 310px);
+    max-width: calc(100% - 310px);
+    padding: 40px 30px 50px 30px;
+  }
+
+  .filter_content .filter_image {
+    height: 250px;
+  }
+
+  .filter_title h3 {
+    font-size: 2.8rem;
+  }
+
+  .filter_text {
+    font-size: 16px;
+  }
+
+  .filter_hotel .row .filter_hotel_single {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .filter_hotel .row {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  .filter_text {
+    padding-bottom: 15px;
+  }
+
+  .filter_link a {
+    font-size: 16px;
+  }
+
+  .filter_btn {
+    padding-bottom: 40px;
+  }
+
+  .filter_hotel .row .filter_hotel_single {
+    margin-bottom: 40px;
+  }
+
+  .discover_more_title .primary_title {
+    margin-bottom: 60px;
+  }
+
+  .room_facilitie_modal .modal-dialog {
+    max-width: 920px;
+  }
+
+  .facilities_info_wrap .facilities_info_text {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .room_title h3 {
+    font-size: 2.8rem;
+  }
+
+  .facilities_info_wrap .facilities_info_text {
+    padding: 0;
+  }
+
+  .facilities_info_wrap {
+    padding: 0 40px;
+  }
+
+  .facilities_info_wrap {
+    /* justify-content: center; */
+  }
+
+  .occupancy_info_single {
+    padding: 0 8px;
+  }
+
+  .occupancy_info_wrap {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+
+  .room_facilitie_modal .modal-dialog {
+    margin: 40px auto;
+  }
+
+  .booking_main_wrap .room_title_image {
+    flex: 0 0 320px;
+    max-width: 320px;
+  }
+
+  .occupancy_info_single {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .booking_main_wrap .room_facilities_info {
+    flex: 0 0 calc(100% - 320px);
+    max-width: calc(100% - 320px);
+  }
+
+  .booking_slider>button.slick-arrow.slick-prev {
+    left: 360px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-section.home {
+    min-height: 580px;
+  }
+
+  .banner-logo-wrap a {
+    display: block;
+    max-width: 150px;
+  }
+
+  .banner-caption h1.banner-title {
+    font-size: 4rem;
+    line-height: 48px;
+  }
+
+  .banner-caption a.btn {
+    font-size: 2rem;
+  }
+
+  .banner-caption {
+    max-width: 540px;
+  }
+
+  .primary_title h2 {
+    font-size: 3rem;
+  }
+
+  .primary_content p {
+    font-size: 1.4rem;
+  }
+
+  .breath_banner {
+    min-height: 450px;
+  }
+
+  .breath_txt {
+    max-width: 320px;
+  }
+
+  .p-8 {
+    padding: 4rem 0;
+  }
+
+  .multi_link a {
+    font-size: 1.4rem;
+  }
+
+  .little_background {
+    padding: 6rem 0;
+  }
+
+  .arrive_content_wrap .lux_content_txt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .banner_section .banner_image {
+    min-height: 400px;
+  }
+
+  .p_left {
+    padding-left: 40px;
+  }
+
+  .m-top {
+    margin-top: 40px;
+  }
+
+  .guest_form_wrap {
+    max-width: 300px;
+  }
+
+  .stay_way_widget {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+
+  .stay_widget_wrap ul.nav {
+    margin-top: 50px;
+  }
+
+  .site-header .search_btn .btn {
+    padding: 18px 45px 18px 42px;
+    font-size: 1.6rem;
+  }
+
+  .p-80 {
+    padding: 60px 0;
+  }
+
+  .sydney_style_section .sydney_style_bg {
+    min-height: 500px;
+  }
+
+  .big_cut.left_cut {
+    -webkit-clip-path: var(--big-left-cut-md);
+    clip-path: var(--big-left-cut-md);
+  }
+
+  .big_cut.right_cut {
+    -webkit-clip-path: var(--big-right-cut-md);
+    clip-path: var(--big-right-cut-md);
+  }
+
+  .small_cut.left_cut {
+    -webkit-clip-path: var(--small-left-cut-md);
+    clip-path: var(--small-left-cut-md);
+  }
+
+  .small_cut.right_cut {
+    -webkit-clip-path: var(--small-right-cut-md);
+    clip-path: var(--small-right-cut-md);
+  }
+
+  .hlimg_cut.left_cut {
+    -webkit-clip-path: var(--hlimg-left-cut-md);
+    clip-path: var(--hlimg-left-cut-md);
+  }
+
+  .hlimg_cut.right_cut {
+    -webkit-clip-path: var(--hlimg-right-cut-md);
+    clip-path: var(--hlimg-right-cut-md);
+  }
+
+  .hlMain_cut.left_cut {
+    -webkit-clip-path: var(--hlMain-left-cut-md);
+    clip-path: var(--hlMain-left-cut-md);
+  }
+
+  .hlMain_cut.right_cut {
+    -webkit-clip-path: var(--hlMain-right-cut-md);
+    clip-path: var(--hlMain-right-cut-md);
+  }
+  .ampImage_cut.left {
+    -webkit-clip-path: var(--ampImage-left-cut-md);
+    clip-path: var(--ampImage-left-cut-md);
+  }
+  
+  .ampImage_cut.right_cut {
+    -webkit-clip-path: var(--ampImage-right-cut-md);
+    clip-path: var(--ampImage-right-cut-md);
+  }
+  .bigMob_cut.left_cut {
+    -webkit-clip-path: var(--bigMob-left-cut-md);
+    clip-path: var(--bigMob-left-cut-md);
+  }
+  
+  .bigMob_cut.right_cut {
+    -webkit-clip-path: var(--bigMob-right-cut-md);
+    clip-path: var(--bigMob-right-cut-md);
+  }
+  .sStyle_cut.left_cut {
+    -webkit-clip-path: var(--sStyle-left-cut-md);
+    clip-path: var(--sStyle-left-cut-md);
+  }
+  
+  .sStyle_cut.right_cut {
+    -webkit-clip-path: var(--sStyle-right-cut-md);
+    clip-path: var(--sStyle-right-cut-md);
+  }
+  /* .live_desti_content
+  {
+    padding: 24vw 0 40vw 0;
+  } */
+  .breath_banner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .banner_section_wrap .banner-caption h2 {
+    font-size: 3rem;
+    line-height: 130%;
+  }
+
+  .banner_section_wrap .banner-caption {
+    max-width: 450px;
+  }
+
+  .stay_widget_wrap .select_dropdown {
+    margin-top: 15px;
+  }
+
+  .sydney_form_wrap .checking_row .col-lg-6:last-child:after {
+    top: -20px;
+  }
+
+  .sydney_form_wrap .checking_row .col-lg-6:last-child:after {
+    content: '\f063';
+    top: -28px;
+    left: 50px;
+  }
+
+  .sydney_form_wrap .sydney_form .guest_code_wrap .col-lg-5 {
+    padding-left: 35px;
+  }
+
+  .sydney_form_wrap .guest_code_wrap .code_right {
+    margin-top: 20px;
+  }
+
+  .sydney_form_section .sydney_form_wrap {
+    padding: 80px 0;
+  }
+
+  .booking_list_image,
+  .booking_list_content {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .booking_single_wrap .booking_list_image {
+    height: 510px;
+  }
+
+  .load_more_button {
+    padding-top: 60px;
+  }
+
+  .error_404_section {
+    height: calc(100vh - 228px);
+  }
+
+  .form_content .form_group input[type="text"],
+  .form_content .form_group input[type="email"] {
+    min-width: 250px;
+    max-width: 250px;
+  }
+
+  .booking_model_wrap .modal-dialog {
+    max-width: 650px;
+  }
+
+  .booking_model_wrap .search_btn a {
+    width: auto;
+  }
+
+  .booking_model_wrap .modal-body {
+    padding: 20px;
+    padding-top: 0;
+  }
+
+  .form_content .checking_row label {
+    display: none;
+  }
+
+  .booking_model_wrap .checking_row input.date_picker {
+    height: 138px;
+    bottom: 30px;
+    width: calc(100% - 70px);
+    /* left: 0; */
+    margin: 0 35px;
+  }
+
+  .pl_100 {
+    padding-left: 50px;
+  }
+
+  .amplify_single_wrap .list_image_wrap {
+    height: 510px;
+  }
+
+  .amplify_single_wrap .list_image_wrap {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .amplify_single_wrap .list_content_wrap {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .amplify_single_wrap .list_content_wrap {
+    order: 2;
+  }
+
+  .big_leftcut_mobile {
+    clip-path: var(--big-left-cut-md);
+  }
+
+  .right_cut_mobile {
+    clip-path: var(--big-right-cut-md);
+  }
+
+  .amplify_single_wrap .list_content_wrap {
+    padding: 40px 30px 80px 30px;
+  }
+
+  .list_content .code_detail {
+    bottom: 80px;
+  }
+
+  .list_content .list_content_text {
+    margin-bottom: 25px;
+  }
+
+  .filter_content .filter_image {
+    height: 300px;
+  }
+
+  .filter_title h3 {
+    font-size: 2.8rem;
+  }
+
+  .filter_hotel .row .filter_hotel_single {
+    margin-bottom: 70px;
+  }
+
+  .filter_section_content .load_more_button .load_more_button {
+    padding-top: 20px;
+  }
+
+  .filter_section_content {
+    padding-bottom: 50px;
+  }
+
+  .details_content_wrap .detail_content_text {
+    padding: 0 60px;
+  }
+
+  .discover_more_filter .filter_hotel .row .filter_hotel_single {
+    margin-bottom: 55px;
+  }
+
+  .filter_section_content.discover_more_filter {
+    padding-top: 40px;
+  }
+
+  .booking_slider>button.slick-arrow.slick-prev {
+    left: 0;
+  }
+
+  .room_facilitie_modal .modal-dialog {
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .facilities_info_wrap {
+    padding: 0 20px;
+  }
+
+  .booking_main_wrap .room_title_image {
+    padding-bottom: 60px;
+  }
+
+  .facilities_info_wrap ul.info_list li {
+    font-size: 16px;
+  }
+
+  .room_facilitie_modal .btn-close {
+    top: 16px;
+    right: 16px;
+    font-size: 25px;
+  }
+  .amplify_single_wrap .list_image_wrap
+  {
+    min-height:auto;
+  }
+}
+
+@media (max-width:812px) and (orientation:landscape) {
+  .error_404_section {
+    height: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  h1,
+  .h1 {
+    font-size: 2.8rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 2.5rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 2.2rem;
+  }
+
+  h4,
+  .h4 {
+    font-size: 1.8rem;
+  }
+
+  h5,
+  .h5 {
+    font-size: 1.7rem;
+  }
+
+  h6,
+  .h6 {
+    font-size: 1.6rem;
+  }
+
+  .banner-caption {
+    padding: 0 26px;
+  }
+
+  .banner-caption h1.banner-title {
+    font-size: 3.6rem;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+
+  .banner-caption p {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+
+  .primary_title {
+    margin-bottom: 38px;
+  }
+
+  .breath_banner {
+    min-height: 380px;
+  }
+
+  .breath_banner {
+    background-position: right top;
+    background-size: 350px;
+  }
+  .breath_banner .parallax-bg
+  {
+    background-position: right top;
+    background-size: 350px;
+  }
+  .primary_title h2 {
+    font-size: 2.2rem;
+  }
+
+  .primary_title h2.m_left {
+    margin-left: 20px;
+  }
+
+  .breath_content p {
+    margin-bottom: 10px;
+  }
+
+  .lux_content_wrap .lux_content_txt,
+  .lux_content_wrap .lux_img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .lux_content_wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .lux_content_wrap .lux_content_txt {
+    padding: 0 20px;
+  }
+
+  .primary_title {
+    padding: 0 20px;
+  }
+
+  .primary_content.luxe_txt {
+    margin-left: 0;
+  }
+
+  .primary_content p {
+    margin-bottom: 10px;
+  }
+
+  .primary_content .multi_link {
+    margin-top: 16px;
+  }
+
+  .lux_content_wrap .lux_img {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -20%;
+    left: 0;
+    padding: 0 80px 0 0;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .lux_content_wrap .lux_img img {
+    width: 100%;
+  }
+
+  .little_background {
+    padding-bottom: 38%;
+    position: relative;
+  }
+
+  .little_background .parallax-block-img {
+    padding-bottom: 55%;
+  }
+
+  .arrive_bg {
+    padding-top: 20%;
+    position: relative;
+    padding-bottom: 48%;
+  }
+
+  .arrive_content_wrap .lux_img::before {
+    display: none;
+  }
+
+  .arrive_content_wrap.lux_content_wrap .lux_img {
+    left: auto;
+    right: 0;
+    padding: 0 0 0 80px;
+    margin-bottom: -40%;
+  }
+
+  .arrive_content_wrap .lux_content_txt {
+    padding-top: 55px;
+  }
+
+  .arrive_section+.live_desti_section .flavour_section {
+    margin-top: 40%;
+  }
+
+  .flavour_content_wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .flavour_content_wrap .flav_img_wrap {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .flavour_content_wrap .flav_content_txt {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .arrive_section {
+    overflow: visible;
+  }
+
+  .flavour_section {
+    position: relative;
+  }
+
+  .flav_title.mobile {
+    display: block;
+    padding: 0 20px;
+  }
+
+  .flav_content_txt .flav_title {
+    display: none;
+  }
+
+  .flav_img_wrap .img_left {
+    /* position: absolute;
+    left: 0; */
+  }
+
+  .flav_img_wrap .img_right {
+    /* position: absolute;
+    right: 0; */
+    margin-top: -30px;
+  }
+
+  .flavour_content_wrap .flav_img_wrap {
+    padding-right: 0;
+    margin: 0 -15px;
+    max-width: none;
+    flex: 0 0 calc(100% + 30px);
+  }
+
+  .flav_img_wrap .img_left,
+  .flav_img_wrap .img_right {
+    /* max-height: 200px;
+    height: 100%; */
+  }
+
+  .flav_img_wrap .img_right .parallax-block-img {
+    padding-bottom: 62%;
+  }
+
+  .flav_img_wrap .img_left img,
+  .flav_img_wrap .img_right img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .flavour_content_wrap .flav_content_txt {
+    /* padding-top: 230px; */
+    padding-top: 40px;
+  }
+
+  .flav_title.mobile .primary_title {
+    margin-bottom: 60px;
+  }
+
+  .form_content .form_group input[type="text"],
+  .form_content .form_group input[type="email"] {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    height: 40px;
+    margin-bottom: 15px;
+    border-width: 1px;
+    font-size: 14px;
+  }
+
+  .form_content form .form_group.form_button input {
+    border-width: 2px;
+  }
+
+  .form_content form .form_group.form_button:before {
+    height: 2px;
+  }
+
+  .form_content form .form_group.form_button input {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .form_content form .form_group {
+    display: block;
+    width: 100%;
+
+  }
+
+  .form_content form .form_button {
+    display: inline-block;
+    width: auto;
+  }
+
+  .get_form_wrap .form_title {
+    margin-bottom: 25px;
+  }
+
+  .form_condition p {
+    font-size: 10px;
+  }
+
+  .form_condition.form_group {
+    margin-top: 20px;
+  }
+
+  .get_form_bg {
+    padding: 55px 0;
+  }
+
+  .get_form_wrap .form_title h4 {
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+  }
+
+  .get_form_section .get_form_wrap {
+    padding: 0 20px;
+  }
+
+  .photo_gallry_sec .photo_wrap {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .gallary_wrap .photo_wrap:first-child {
+    display: none;
+  }
+
+  .banner_section .banner_image {
+    min-height: 350px;
+  }
+
+  .banner_section .banner_image .banner-title h2 {
+    font-size: 2.2rem;
+  }
+
+  .banner_section .banner_image {
+    padding: 90px 0 90px 0;
+  }
+
+  .image_content_wrap.left_image .row .image_section {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .m-top {
+    margin-top: 10px;
+  }
+
+  .image_inner_section {
+    -webkit-transform: translateX(25%);
+    -ms-transform: translateX(25%);
+    transform: translateX(25%);
+    margin-top: 30px;
+    height: 300px;
+    /* height:100%; */
+  }
+
+  .image_inner_section .image_wrap {
+    height: 100%;
+  }
+
+  .image_inner_section img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .content_title .primary_title {
+    padding: 0;
+  }
+
+  .content_section {
+    padding: 0 40px;
+  }
+
+  .m_left_mobile {
+    margin-left: 20px;
+  }
+
+  .m_left_hide_mobile {
+    margin-left: 0 !important;
+  }
+
+  .image_content_wrap {
+    /* overflow-x: hidden; */
+  }
+
+  .image_content_section.p-8 {
+    padding: 50px 0;
+  }
+
+  .content_title .primary_title {
+    margin-bottom: 20px;
+  }
+
+  .all_category_wrap {
+    padding-top: 15px;
+  }
+
+  .image_content_section {
+    position: relative;
+  }
+
+  .image_content_section .left_mobile .image_section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -64%;
+    padding-right: 60px;
+
+  }
+
+  .left_mobile .image_section img {
+    width: 100%;
+  }
+
+  .left_mobile {
+    padding-bottom: 25%;
+  }
+
+  .category_section .content_section {
+    padding: 0 20px;
+  }
+
+  .category_section .content_title {
+    padding: 0 35px;
+  }
+
+  .ml-42 {
+    margin-left: 20px;
+  }
+
+  .all_category_wrap ul li {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .hotel_destination {
+    padding-top: 64%;
+  }
+
+  .hotel_destination .image_content_wrap {
+    padding-top: 45px;
+  }
+
+  .sydney_style_section .sydney_style_bg {
+    background-image: none !important;
+  }
+
+  .sydney_style_section .sydney_style_bg .parallax-bg {
+    background-image: none !important
+  }
+
+  .sydney_style_section .bg_mobile {
+    background-image: url(../images/adina-apartment-hotel-sydney-george-street-guest-room.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    min-height: 400px;
+  }
+
+  .sydney_content_wrap {
+    background: #003038;
+    position: relative;
+  }
+
+  .sydney_content_wrap .primary_content.ml-42 {
+    margin-left: 0;
+  }
+
+  .sydney_content_wrap .content_title {
+    padding: 0 20px;
+  }
+
+  .sydney_style_content .single_link a.btn {
+    padding: 15px 20px 15px 18px;
+  }
+
+  /* .p-30
+  {
+    padding: 0 20px;
+  } */
+  .sydney_style_content {
+    padding: 50px 20px;
+  }
+
+  .create_section .left_mobile {
+    padding-bottom: 60%;
+  }
+
+  .create_section .left_mobile .image_section {
+    margin-bottom: -25%;
+    padding-right: 80px;
+  }
+
+  .create_section+.map_section {
+    padding-top: 25%;
+  }
+
+  .map_section .content_section {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .map_section .image_section {
+    max-height: 500px;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .map_section .image_wrap {
+    height: 100%;
+  }
+
+  .map_section .image_wrap img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .map_section {
+    padding-bottom: 500px;
+  }
+
+  .map_section .map_btn {
+    position: absolute;
+    padding: 50px 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .map_section .map_btn a {
+    background: -o-linear-gradient(323deg, #003038 78%, transparent 70%) 100% 0/20px 100% no-repeat, -o-linear-gradient(#003038, #003038) 0px 0/calc(100% - 20px) 100% no-repeat;
+    background: linear-gradient(127deg, #003038 78%, transparent 70%) 100% 0/20px 100% no-repeat, linear-gradient(#003038, #003038) 0px 0/calc(100% - 20px) 100% no-repeat;
+    border-color: transparent;
+    color: #CCA88B;
+    padding: 12px 20px;
+  }
+
+  .big_left_cut_mobile {
+    -webkit-clip-path: var(--big-left-cut-md);
+    clip-path: var(--big-left-cut-md);
+  }
+
+  .live_desti_content {
+    padding: 28vw 0 50vw 0;
+    margin-top: 0;
+  }
+
+  .live_desti_image {
+    bottom: 0;
+  }
+
+  .live_desti_wrap .lux_content_txt {
+    max-width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+
+  .live_desti_wrap .primary_title {
+    padding-left: 0;
+  }
+
+  .shape_right_wrap {
+    height: 80px;
+    width: 80px;
+  }
+
+  .banner_section_wrap .banner-caption h2 {
+    font-size: 2.2rem;
+    line-height: 130%;
+  }
+
+  .banner_section_wrap .banner-caption {
+    max-width: 360px;
+  }
+
+  button.slick-arrow {
+    display: none !important;
+  }
+
+  .banner_section_wrap .slick-dots li button:before {
+    height: 5px;
+    width: 5px;
+  }
+
+  .banner_section_wrap .slick-dots li button {
+    margin: 0 8px;
+  }
+
+  .banner_section_wrap .slick-dots {
+    bottom: 0;
+  }
+
+  .accomodation_happy_sec .image_inner_section {
+    height: 350px;
+    -webkit-transform: translateX(60px);
+    -ms-transform: translateX(60px);
+    transform: translateX(60px);
+  }
+
+  .image_content_section .live_high {
+    padding-bottom: calc(100% - 150px);
+  }
+
+  .image_content_section .live_high .image_section {
+    position: absolute;
+    bottom: -100px;
+    z-index: 1;
+    left: 0;
+    padding-right: 60px;
+  }
+
+  .image_content_section .live_high .image_section img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .stay_widget_wrap .back_btn a i {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .stay_widget_wrap .select_dropdown {
+    margin: 15px 0 0;
+  }
+
+  .select_dropdown .dropdown::before {
+    display: none;
+  }
+
+  .Stay_form .col-md-6 {
+    padding: 0 15px;
+  }
+
+  .stay_way_widget {
+    padding: 25px 30px;
+  }
+
+  .date_wrap label {
+    display: none;
+  }
+
+  .stay_widget_wrap .Stay_way_form {
+    padding: 20px 0;
+  }
+
+  .stay_widget_wrap input[type="text"] {
+    font-size: 14px;
+    padding: 12px 10px 12px 20px;
+    border-width: 1px;
+    height: 40px;
+  }
+
+  .checking_row .col-md-6:last-child:after {
+    content: '\f063';
+    top: -28px;
+    left: 40px;
+  }
+
+  .stay_widget_wrap .ret_date_wrap input[type="text"] {
+    margin-bottom: 20px;
+  }
+
+  .guest_form_wrap .guest_group input[type="text"] {
+    height: 46px;
+    padding: 10px;
+  }
+
+  .value-button_wrap {
+    max-height: 46px;
+  }
+
+  .value-button_wrap .value-button {
+    border-width: 1px;
+  }
+
+  .value-button_wrap .value-button {
+    max-height: 40px;
+  }
+
+  .guest_form_wrap {
+    max-width: 250px;
+  }
+
+  .guest_suggestion {
+    line-height: 100%;
+    margin-top: 5px;
+  }
+
+  .code_btn_wrap .input_div {
+    display: none;
+  }
+
+  .code_btn_wrap .search_btn {
+    margin-top: 20px;
+  }
+
+  .site-header .search_btn .btn {
+    height: 40px;
+    font-size: 1.4rem;
+    padding: 12px 18px 12px 18px;
+    width: auto;
+  }
+
+  .big_leftcut_mobile {
+    -webkit-clip-path: var(--big_leftcut_mobile-md);
+    clip-path: var(--big_leftcut_mobile-md);
+  }
+
+  .form_content .checking_row label {
+    display: none;
+  }
+
+  .sydney_form_wrap .checking_row .col-lg-6:last-child:after {
+    top: -28px;
+  }
+
+  .sydney_form_wrap .guest_form_wrap .guest_group input[type="text"] {
+    border-width: 1px;
+  }
+
+  .sydney_form_wrap .guest_code_wrap .code_right {
+    margin-top: 20px;
+  }
+
+  .sydney_form_wrap .search_btn a {
+    padding: 14px 15px 14px 15px;
+    height: auto;
+    width: auto;
+  }
+
+  .sydney_form_wrap .form_content .checking_form,
+  .sydney_form_wrap .form_content .guest_code_wrap {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+  .sydney_form_wrap .Stay_form .col-lg-6,
+  .sydney_form_wrap .sydney_form .guest_code_wrap .col-lg-7,
+  .sydney_form_wrap .sydney_form .guest_code_wrap .col-lg-5 {
+    padding: 0 35px;
+  }
+
+  .sydney_form_wrap .primary_title {
+    margin: 0 0px 20px;
+  }
+
+  .sydney_form_section .sydney_form_wrap {
+    padding: 160px 0 20px;
+  }
+
+  .booking_listing_section .booking_listing_wrap {
+    padding: 140px 0 40px;
+  }
+
+  .booking_list_content .right_price_section,
+  .booking_list_content .list_content_wrap_left {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+  .price_section_wrap .price_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .price_content .price {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  .book_room_btn a {
+    width: auto;
+    padding: 15px 15px 15px 15px;
+    margin-top: 20px
+  }
+
+  .price_content .price span {
+    font-size: 14px;
+  }
+
+  .mobile_view {
+    display: block;
+  }
+
+  .price_content>span {
+    display: none;
+  }
+
+  .mobile_view span {
+    display: block;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 130%;
+  }
+
+  .price_section_wrap .price_content {
+    padding: 5px 20px;
+  }
+
+  .right_price_section {
+    margin-top: 30px;
+  }
+
+  .booking_list_content {
+    padding: 30px 20px 20px 20px;
+  }
+
+  .booking_list_content .list_content_wrap_left {
+    padding-right: 0;
+  }
+
+  .list_content_wrap_left h3.title {
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+  }
+
+  .list_content_wrap_left .content_txt,
+  .list_content_wrap_left .primary_content .multi_link {
+    margin-bottom: 10px;
+  }
+
+
+  .load_more_button {
+    padding-top: 40px;
+  }
+
+  .booking_listing_wrap {
+    padding: 40px 0;
+  }
+
+  .load_more_button a {
+    font-size: 18px;
+  }
+
+  .sydney_style_section.big_right_cut {
+    -webkit-clip-path: unset;
+    clip-path: unset;
+  }
+
+  .create_section .big_left_cut {
+    -webkit-clip-path: var(--big-right-cut-md);
+    clip-path: var(--big-right-cut-md);
+  }
+
+  .error_404_section {
+    height: calc(100vh - 221px);
+  }
+
+  .booking_destination_btn {
+    top: 0;
+  }
+
+  .booking_model_wrap .primary_title h2 {
+    font-size: 2.2rem;
+  }
+
+  .modal-content .Stay_way_form {
+    margin-top: 40px;
+  }
+
+  .booking_model_wrap .modal-dialog {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .sydney_form_wrap .guest_code_wrap .code_right {
+    margin-bottom: 20px;
+  }
+
+  .booking_model_wrap .modal-body {
+    padding-top: 0;
+  }
+
+  .stay_widget_wrap .Stay_way_form {
+    padding-top: 0;
+  }
+
+  .stay_way_widget .checking_form {
+    padding-top: 20px;
+  }
+
+  .form_content .form_group input[type="text"],
+  .form_content .form_group input[type="email"] {
+    margin-bottom: 0;
+  }
+
+  .form_content form .form_group {
+    margin-bottom: 15px;
+  }
+
+  .wpcf7-not-valid-tip {
+    font-size: 14px;
+  }
+
+  .wpcf7 form .wpcf7-response-output {
+    font-size: 14px;
+  }
+
+  .sydney_style_section .bg_mobile {
+    display: block;
+  }
+
+  .map_section .image_wrap iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  .stay_widget_wrap .code_btn_wrap {
+    margin-top: 20px;
+  }
+
+  .stay_widget_wrap .code_btn_wrap .input_div {
+    display: block;
+  }
+
+  .stay_widget_wrap .code_btn_wrap .search_btn {
+    margin-top: 0;
+  }
+
+  .checking_row input.date_picker {
+    height: 110px;
+    bottom: 20px;
+    width: calc(100% - 30px);
+    /* left: 0; */
+    margin: 0 15px;
+  }
+
+  .daterangepicker {
+    position: fixed;
+    top: 0 !important;
+    margin: 0;
+    border-radius: 0;
+    bottom: 0 !important;
+    width: 100%;
+    padding: 50px;
+    overflow: auto;
+  }
+
+  .daterangepicker.show-calendar .drp-buttons {
+    max-width: 540px;
+  }
+
+  .daterangepicker .drp-selected {
+    display: block;
+    padding-right: 0;
+    margin: 10px 0;
+  }
+
+  .image_inner_wrap {
+    padding-bottom: 350px;
+    position: relative;
+  }
+
+  .image_inner_wrap .image_section.col-md-6 {
+    bottom: 0;
+    position: absolute;
+    height: 350px;
+    right: 0;
+    padding-left: 60px;
+    padding-right: 0;
+  }
+
+  .image_inner_wrap .content_section {
+    margin-bottom: 35px;
+  }
+
+  .image_inner_wrap .image_section img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .image_inner_wrap .image_section .image_wrap {
+    height: 100%;
+  }
+
+  .dining_resturant_section .col-md-6.image_section {
+    padding: 0 40px 20px;
+  }
+
+  .dining_resturant_section .image_section .image_wrap {
+    max-height: 350px;
+  }
+
+  .sammy_section .image_section.col-md-6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 60px;
+  }
+
+  .sammy_section .content_section {
+    padding-bottom: 20px;
+  }
+
+  .sammy_section.image_content_wrap {
+    padding-top: 100%;
+    position: relative;
+  }
+
+  .text_left_mobile h2 {
+    text-align: left !important;
+  }
+
+  /* .right_cut_mobile {
+    clip-path: var(--big-right-cut-sm);
+  } */
+
+  .big_cut.left_cut_mobile {
+    -webkit-clip-path: var(--big-left-cut-md);
+    clip-path: var(--big-left-cut-md);
+  }
+
+  .big_cut.right_cut_mobile {
+    -webkit-clip-path: var(--big-right-cut-md);
+    clip-path: var(--big-right-cut-md);
+  }
+
+  .small_cut.left_cut_mobile {
+    -webkit-clip-path: var(--small-left-cut-md);
+    clip-path: var(--small-left-cut-md);
+  }
+
+  .small_cut.right_cut_mobile {
+    -webkit-clip-path: var(--small-right-cut-md);
+    clip-path: var(--small-right-cut-md);
+  }
+
+  .hlMain_cut.left_cut_mobile {
+    -webkit-clip-path: var(--hlMain-left-cut-md);
+    clip-path: var(--hlMain-left-cut-md);
+  }
+
+  .hlMain_cut.right_cut_mobile {
+    -webkit-clip-path: var(--hlMain-right-cut-md);
+    clip-path: var(--hlMain-right-cut-md);
+  }
+  .bigMob_cut.left_cut_mobile {
+    -webkit-clip-path: var(--bigMob-left-cut-md);
+    clip-path: var(--bigMob-left-cut-md);
+  }
+  
+  .bigMob_cut.right_cut_mobile {
+    -webkit-clip-path: var(--bigMob-right-cut-md);
+    clip-path: var(--bigMob-right-cut-md);
+  }
+  .sStyle_cut.no_cut_mobile {
+    -webkit-clip-path: var(--sStyle-left-cut-sm);
+    clip-path: var(--sStyle-left-cut-sm);
+  }
+  .amplify_single_wrap .list_image_wrap {
+    height: 420px;
+  }
+
+  .amplify_single_wrap .list_content_wrap {
+    padding: 40px 30px 50px 30px;
+  }
+
+  .list_content .code_detail {
+    bottom: 50px;
+  }
+
+  .list_content .list_content_text {
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+  }
+
+  .list_title_wrap h3 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+
+  .filter_content .filter_image {
+    height: 450px;
+  }
+
+  .filter_btn_wrap {
+    top: 0px;
+    left: 0px;
+  }
+
+  .filter_title_name {
+    display: none;
+  }
+
+  .filter_section_content a.btn {
+    padding: 8px 12px;
+  }
+
+  .filter_section_content .filter_btn_wrap a.btn {
+    padding: 10px 15px;
+  }
+
+  .booking_listing_wrap .container,
+  .filter_section_wrap .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .amplify_listing_section .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .filter_title h3 {
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  .filter_text {
+    font-size: 14px;
+  }
+
+  .filter_link a {
+    font-size: 18px;
+  }
+
+  .filter_btn ul li {
+    margin-right: 2px;
+  }
+
+  .filter_btn {
+    padding-bottom: 40px;
+  }
+
+  .filter_section_content {
+    padding-top: 25px;
+    padding-bottom: 40px;
+  }
+
+  .filter_section_content {
+    padding-bottom: 40px;
+  }
+
+  .filter_hotel .row .filter_hotel_single:last-child {
+    margin-bottom: 0;
+  }
+
+  .filter_section_content .load_more_button {
+    padding-top: 30px;
+  }
+
+  .filter_title h3 {
+    line-height: 121%;
+  }
+
+  .filter_link a i {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .get_form_wrap .form_title p {
+    font-size: 14px;
+  }
+
+  .contact_section .form_wrap.col-md-6 {
+    margin-top: 30px;
+    padding: 0 40px;
+  }
+
+  .details_content_wrap .detail_content_text {
+    padding: 0 25px;
+  }
+
+  .detail_related_image {
+    margin: 30px 5px;
+  }
+
+  .detail_content_text p {
+    font-size: 14px;
+  }
+
+  .filter_section_content.discover_more_filter .container {
+    padding-right: 40px;
+    padding-left: 40px;
+
+  }
+
+  .room_facilitie_modal .modal-dialog {
+    max-width: 90%;
+  }
+
+  .booking_main_wrap .room_title_image,
+  .booking_main_wrap .room_facilities_info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .room_title h3 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+
+  .room_facilitie_modal button.slick-arrow {
+    display: inline-block !important;
+  }
+
+  .icon_text_wrap {
+    margin-bottom: 16px;
+  }
+
+  .room_image_wrap button.slick-arrow {
+    font-size: 2.4rem;
+
+  }
+
+  .occupancy_info_wrap {
+    margin-top: 15px;
+  }
+
+  .occupancy_info_single {
+    margin-bottom: 10px;
+  }
+
+  .booking_main_wrap .room_title_image {
+    padding-bottom: 20px;
+
+  }
+
+  .occupancy_info_single {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .facilities_info_wrap {
+    padding: 0;
+  }
+
+  .feature_title h5 {
+    margin-bottom: 16px;
+  }
+
+  .room_facilities_info .right_price_section {
+    margin: 10px 0 20px;
+  }
+
+  .facilities_info_wrap .right_price_section {
+    max-width: 60%;
+    flex: 0 0 60%;
+  }
+
+  .room_facilitie_modal .modal {
+    align-items: flex-start;
+  }
+
+  .arrive_bg {
+    background: #1B1A24;
+  }
+
+  .arrive_content_wrap .lux_content_txt:before {
+    display: none;
+  }
+
+  .arrive_content_wrap.lux_content_wrap .lux_img {
+    width: 520px;
+    height: 520px;
+    padding-left: 0;
+    margin-bottom: -300px;
+  }
+
+  .arrive_bg {
+    padding-bottom: 220px;
+  }
+
+  .arrive_content_wrap .lux_content_txt {
+    padding-bottom: 40px;
+  }
+
+  .arrive_section+.live_desti_section .flavour_section {
+    margin-top: 300px;
+  }
+  .image_inner_section .parallax-block-img
+  {
+    padding-bottom: 0;
+    height: 100%;
+  }
+  .image_inner_wrap .image_section.col-md-6 .parallax-block-img
+  {
+    padding-bottom: 0;
+    height: 100%;
+  }
+  .filter_btn a.btn
+  {
+    padding: 8px 12px;
+  }
+  .dining_resturant_section .parallax-block-img
+  {
+    padding-bottom: 0;
+    height: 100%;
+  }
+  .checkbox_content
+  {
+    font-size:14px;
+  }
+  .checkbox_content label.checkbox_input
+  {
+    display:inline-block;
+    font-size:14px;
+  }
+  /* .flav_content_txt .flav_title
+  {
+    position: absolute;
+  } */
+}
+
+@media (max-width: 575px) {
+  .navbar-collapse {
+    width: 100%;
+  }
+
+  .banner-caption h1.banner-title {
+    font-size: 2.2rem;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+
+  .banner-caption p {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    line-height: 21px;
+  }
+
+  .banner-caption a.btn {
+    font-size: 1.5rem;
+  }
+
+  .banner-section.home {
+    min-height: 420px;
+  }
+
+  .banner-logo-wrap a {
+    max-width: 120px;
+  }
+
+  .banner-logo-wrap {
+    bottom: 15px;
+    left: 26px;
+  }
+
+  .banner-caption {
+    max-width: 380px;
+  }
+
+  .banner-caption p {
+    max-width: 285px;
+  }
+
+  .breath_banner {
+    min-height: 290px;
+    background-size: 270px;
+  }
+  .breath_banner .parallax-bg
+  {
+    background-size: 270px;
+  }
+  .big_leftcut_mobile {
+    clip-path: var(--big-left-cut-sm);
+  }
+
+  .p-8 {
+    padding: 2.2rem 0;
+  }
+
+  .little_background {
+    padding: 6rem 0;
+    padding-bottom: 40%;
+  }
+
+  .lux_content_wrap .lux_img {
+    padding-right: 60px;
+  }
+
+  .arrive_bg {
+    padding-bottom: 41%;
+  }
+
+  .arrive_content_wrap.lux_content_wrap .lux_img {
+    padding-left: 60px;
+  }
+
+  .flav_img_wrap .img_left,
+  .flav_img_wrap .img_right {
+    /* max-height: 140px; */
+  }
+
+  .flav_img_wrap .img_left {
+    padding-right: 12px;
+  }
+
+  .flav_img_wrap .img_left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 42%;
+    flex: 0 0 42%;
+    max-width: 42%;
+  }
+
+  .flav_img_wrap .img_right {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58%;
+    flex: 0 0 58%;
+    max-width: 58%;
+  }
+
+  .flavour_content_wrap .flav_content_txt {
+    /* padding-top: 170px; */
+  }
+
+  .banner_section .banner_image {
+    min-height: 290px;
+  }
+
+  .image_inner_section {
+    height: 250px;
+    -webkit-transform: translateX(32%);
+    -ms-transform: translateX(32%);
+    transform: translateX(32%);
+    /* height:100%; */
+  }
+
+  .image_content_section .left_mobile .image_section {
+    padding-right: 40px;
+    margin-bottom: -55%;
+  }
+
+  .left_mobile {
+    padding-bottom: 30%;
+  }
+
+  .hotel_destination {
+    padding-top: 55%;
+  }
+
+  .sydney_style_section .bg_mobile {
+    min-height: 400px;
+
+  }
+
+  .create_section .left_mobile {
+    padding-bottom: 80%;
+  }
+
+  .create_section .left_mobile .image_section {
+    margin-bottom: -20%;
+  }
+
+  .create_section .left_mobile .image_section {
+    padding-right: 80px;
+  }
+
+  .create_section .left_mobile {
+    padding-bottom: 60%;
+  }
+
+  .create_section+.map_section {
+    padding-top: 20%;
+  }
+
+  .big_cut.left_cut {
+    -webkit-clip-path: var(--big-left-cut-sm);
+    clip-path: var(--big-left-cut-sm);
+  }
+
+  .big_cut.right_cut {
+    -webkit-clip-path: var(--big-right-cut-sm);
+    clip-path: var(--big-right-cut-sm);
+  }
+
+  .big_cut.left_cut_mobile {
+    -webkit-clip-path: var(--big-left-cut-sm);
+    clip-path: var(--big-left-cut-sm);
+  }
+
+  .big_cut.right_cut_mobile {
+    -webkit-clip-path: var(--big-right-cut-sm);
+    clip-path: var(--big-right-cut-sm);
+  }
+
+  .small_cut.left_cut {
+    -webkit-clip-path: var(--small-left-cut-sm);
+    clip-path: var(--small-left-cut-sm);
+  }
+
+  .small_cut.right_cut {
+    -webkit-clip-path: var(--small-right-cut-sm);
+    clip-path: var(--small-right-cut-sm);
+  }
+
+  .small_cut.left_cut_mobile {
+    -webkit-clip-path: var(--small-left-cut-sm);
+    clip-path: var(--small-left-cut-sm);
+  }
+
+  .small_cut.right_cut_mobile {
+    -webkit-clip-path: var(--small-right-cut-sm);
+    clip-path: var(--small-right-cut-sm);
+  }
+
+  .hlimg_cut.left_cut {
+    -webkit-clip-path: var(--hlimg-left-cut-sm);
+    clip-path: var(--hlimg-left-cut-sm);
+  }
+
+  .hlimg_cut.right_cut {
+    -webkit-clip-path: var(--hlimg-right-cut-sm);
+    clip-path: var(--hlimg-right-cut-sm);
+  }
+
+  .big_left_cut_mobile {
+    -webkit-clip-path: var(--big_left_cut_mobile);
+    clip-path: var(--big_left_cut_mobile);
+  }
+
+  .big_leftcut_mobile {
+    -webkit-clip-path: var(--big_leftcut_mobile-sm);
+    clip-path: var(--big_leftcut_mobile-sm);
+  }
+
+  .hlMain_cut.left_cut {
+    -webkit-clip-path: var(--hlMain-left-cut-sm);
+    clip-path: var(--hlMain-left-cut-sm);
+  }
+
+  .hlMain_cut.right_cut {
+    -webkit-clip-path: var(--hlMain-right-cut-sm);
+    clip-path: var(--hlMain-right-cut-sm);
+  }
+
+  .hlMain_cut.left_cut_mobile {
+    -webkit-clip-path: var(--hlMain-left-cut-sm);
+    clip-path: var(--hlMain-left-cut-sm);
+  }
+
+  .hlMain_cut.right_cut_mobile {
+    -webkit-clip-path: var(--hlMain-right-cut-sm);
+    clip-path: var(--hlMain-right-cut-sm);
+  }
+  .ampImage_cut.left_cut {
+    -webkit-clip-path: var(--ampImage-left-cut-sm);
+    clip-path: var(--ampImage-left-cut-sm);
+  }
+  
+  .ampImage_cut.right_cut {
+    -webkit-clip-path: var(--ampImage-right-cut-sm);
+    clip-path: var(--ampImage-right-cut-sm);
+  }
+  .bigMob_cut.left_cut {
+    -webkit-clip-path: var(--bigMob-left-cut-sm);
+    clip-path: var(--bigMob-left-cut-sm);
+  }
+  
+  .bigMob_cut.right_cut {
+    -webkit-clip-path: var(--bigMob-right-cut-sm);
+    clip-path: var(--bigMob-right-cut-sm);
+  }
+  .bigMob_cut.left_cut_mobile {
+    -webkit-clip-path: var(--bigMob-left-cut-sm);
+    clip-path: var(--bigMob-left-cut-sm);
+  }
+  
+  .bigMob_cut.right_cut_mobile {
+    -webkit-clip-path: var(--bigMob-right-cut-sm);
+    clip-path: var(--bigMob-right-cut-sm);
+  }
+  .live_desti_wrap .lux_content_txt {
+    max-width: 80%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+  }
+
+  .live_desti_image {
+    top: 25vw;
+  }
+
+  .live_desti_wrap .lux_content_txt .primary_content {
+    max-width: 180px;
+  }
+
+  .live_desti_content {
+    padding: 10px 0 50vw 0;
+    margin-top: 0;
+
+  }
+
+  .live_desti_image {
+    top: auto;
+    bottom: 0;
+    height: auto;
+  }
+
+  .breath_banner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .live_desti_wrap .primary_title {
+    margin-bottom: 25px;
+  }
+
+  .accomodation_happy_sec .image_inner_section {
+    height: 270px;
+  }
+
+  .error_404_section {
+    height: calc(100vh - 196px);
+  }
+
+  .image_inner_wrap {
+    padding-bottom: 270px;
+  }
+
+  .image_inner_wrap .image_section.col-md-6 {
+    height: 270px;
+  }
+
+  .dining_resturant_section .image_section .image_wrap {
+    max-height: 250px;
+  }
+
+  .amplify_single_wrap .list_image_wrap {
+    height: 350px;
+  }
+
+  /* .booking_single_wrap .listing_image_right_cut,
+  .listing_right_cut {
+    -webkit-clip-path: var(--hotel_listing_rightcut-md);
+    clip-path: var(--hotel_listing_rightcut-md);
+  } */
+
+  .occupancy_info_single {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .booking_slider>button.slick-arrow {
+    font-size: 16px;
+  }
+
+  .facilities_info_wrap ul.info_list li {
+    font-size: 14px;
+  }
+
+  .feature_title h5 {
+    font-size: 2rem;
+  }
+
+  .booking_slider>button.slick-arrow.slick-prev i {
+    margin-left: 0;
+  }
+
+  .booking_slider>button.slick-arrow.slick-next i {
+    margin-right: 0;
+  }
+
+  .room_image_wrapper {
+    max-height: 250px;
+  }
+
+  .facilities_info_wrap .right_price_section {
+    max-width: calc(100% - 2px);
+    flex: 0 0 calc(100% - 2px);
+  }
+
+  .room_facilitie_modal .modal-body {
+    padding: 40px 20px 20px;
+  }
+
+  .arrive_content_wrap.lux_content_wrap .lux_img {
+    padding-left: 0;
+    height: 420px;
+    width: 420px;
+    margin-bottom: -250px;
+  }
+
+  .arrive_bg {
+    padding-bottom: 170px;
+  }
+
+  .arrive_section+.live_desti_section .flavour_section {
+    margin-top: 250px;
+  }
+}
+
+@media(max-width:480px) {
+  .image_inner_section {
+    height: 170px;
+    /* height:100%; */
+  }
+
+  .sydney_style_section .bg_mobile {
+    min-height: 300px;
+  }
+
+  .create_section .left_mobile {
+    padding-bottom: 55%;
+  }
+
+  .live_desti_wrap .lux_content_txt .primary_content {
+    max-width: 160px;
+  }
+
+  .live_desti_wrap .lux_content_txt {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+  .accomodation_happy_sec .image_inner_section {
+    height: 230px;
+  }
+
+  .booking_single_wrap .booking_list_image {
+    height: 230px;
+  }
+
+  .daterangepicker {
+    padding: 40px;
+  }
+
+  .image_inner_wrap {
+    padding-bottom: 230px;
+  }
+
+  .image_inner_wrap .image_section.col-md-6 {
+    height: 230px;
+  }
+
+  .dining_resturant_section .image_section .image_wrap {
+    max-height: 200px;
+  }
+
+  .amplify_single_wrap .list_image_wrap {
+    height: 230px;
+  }
+
+  .filter_content .filter_image {
+    height: 400px;
+  }
+
+  .arrive_content_wrap.lux_content_wrap .lux_img {
+    padding-left: 0;
+    height: 350px;
+    width: 350px;
+    margin-bottom: -200px;
+  }
+
+  .arrive_bg {
+    padding-bottom: 150px;
+  }
+
+  .arrive_section+.live_desti_section .flavour_section {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar-brand {
+    max-width: 27px;
+  }
+
+  .dropdown-item {
+    font-size: 1.2rem;
+  }
+
+  .navbar-collapse {
+    padding-top: 90px;
+  }
+
+  .booking_single_wrap .booking_list_image {
+    height: 190px;
+  }
+
+  .error_404_section {
+    height: calc(100vh - 195px);
+  }
+
+  .amplify_single_wrap .list_image_wrap {
+    height: 160px;
+  }
+
+  .filter_content .filter_image {
+    height: 300px;
+  }
+
+  .booking_slider>button.slick-arrow {
+    font-size: 14px;
+  }
+
+  .arrive_content_wrap.lux_content_wrap .lux_img {
+    padding-left: 0;
+    height: 320px;
+    width: 320px;
+    margin-bottom: -180px;
+  }
+
+  .arrive_bg {
+    padding-bottom: 140px;
+  }
+
+  .arrive_section+.live_desti_section .flavour_section {
+    margin-top: 180px;
+  }
+}
+
+@media(max-width:374px) {
+  .room_image_wrapper {
+    max-height: 200px;
+  }
+
+  .occupancy_info_single {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .occupancy_info_single {
+    margin: 0;
+  }
+
+  .arrive_content_wrap.lux_content_wrap .lux_img {
+    padding-left: 0;
+    height: 280px;
+    width: 280px;
+    margin-bottom: -150px;
+  }
+
+  .arrive_bg {
+    padding-bottom: 130px;
+  }
+
+  .arrive_section+.live_desti_section .flavour_section {
+    margin-top: 150px;
+  }
+
+}

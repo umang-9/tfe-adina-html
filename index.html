@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/locomotive-scroll.css" />
+	<link rel="stylesheet" href="css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/daterangepicker.css" />
+	<link rel="stylesheet" href="css/splitting.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/custom.css" />
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+	<title>TFE Adina</title>
+</head>
+
+<body id="top" data-scroll-container>
+	<div class="page-loader"></div>
+
+	<div class="page">
+
+		<header class="site-header transparent-header">
+			<!-- <header class="site-header"> -->
+			<nav class="navbar fixed-top navbar-expand-xl navbar-light">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo-nav.png" class="logo-default" alt="TFE Adina">
+				</a>
+
+				<button id="nav-icon2" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<!-- <span class="navbar-toggler-icon"></span> -->
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarMain">
+
+					<!-- <div class="collapse-header clearfix d-block d-xl-none">
+				  <button  id="nav-icon2" type="button" class="navbar-close" data-toggle="collapse" data-target="#navbarMain"
+					aria-label="Close navigation">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+				  </button>
+				</div> -->
+
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+								Sydney <span class="sr-only">(current)</span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="hotel.html">The Sydney Experience</a>
+								<a class="dropdown-item" href="accomodation.html">Accommodation</a>
+								<a class="dropdown-item" href="#!">Drink and Dine</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+								Brisbane
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="hotel.html">The Brisbane Experience</a>
+								<a class="dropdown-item" href="accomodation.html">Accommodation</a>
+								<a class="dropdown-item" href="#!">Drink and Dine</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+								Canberra
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="hotel.html">The Canberra Experience</a>
+								<a class="dropdown-item" href="accomodation.html">Accommodation</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#!">Discover</a>
+						</li>
+					</ul>
+
+				</div>
+
+
+
+				<div class="header-right">
+					<a href="#!" class="btn btn-primary" title="Stay My Way">Stay My Way</a>
+					<div class="stay_way_widget">
+						<div class="stay_widget_wrap">
+							<div class="back_btn d-lg-none d-block">
+								<a href="#"><i class="fal fa-chevron-left"></i>Back</a>
+							</div>
+							<form id="stay_my_way_form">
+								<div class="select_dropdown">
+									<div class="dropdown">
+										<a class="nav-link dropdown-toggle" href="#!" id="selectOption" role="button" data-toggle="dropdown" aria-haspopup="true"
+											aria-expanded="false">Select Option</a>
+										<div class="dropdown-menu" aria-labelledby="selectOption">
+											<a class="dropdown-item" href="#!">A, Sydney</a>
+											<a class="dropdown-item" href="#!">A, Brisbane</a>
+											<a class="dropdown-item" href="#!">A, Canberra</a>
+
+										</div>
+									</div>
+								</div>
+								<div class="Stay_way_form">
+									<div class="Stay_form">
+
+										<div class="checking_form">
+											<div class="checking_row">
+												<div class="row">
+													<input type="text" placeholder="Select Date" name="main-input-search" value="" readonly="readonly" class="date_picker">
+													<div class="col-md-6">
+														<div class="date_wrap">
+															<label for="start_date">Checking in</label>
+															<input type="text" id="arrive" name="start_date" placeholder="Start Date">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="ret_date_wrap">
+															<input type="text" id="depart" name="end_date" placeholder="End Date">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="guest_code_wrap">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="guest_left">
+														<h5>Guests</h5>
+														<div class="guest_form_wrap">
+															<div class="guest_wrap">
+																<div class="adult_wrap guest_group">
+																	<label for="adult">Adults</label>
+																	<div class="value-num_wrap">
+																		<input id="qty1" type="text" value="1" class="qty" />
+																		<div class="value-button_wrap">
+																			<div class="value-button add" id="add1">+</div>
+																			<div class="value-button minus" id="minus1">-</div>
+																		</div>
+																	</div>
+																	<div class="guest_suggestion">
+																		<span>Ages 13 and above.</span>
+																	</div>
+																</div>
+																<div class="children_wrap guest_group">
+																	<label for="children">Children</label>
+																	<div class="value-num_wrap">
+																		<input id="qty2" type="text" value="1" class="qty" />
+																		<div class="value-button_wrap">
+																			<div class="value-button add" id="add2">+</div>
+																			<div class="value-button minus" id="minus2">-</div>
+																		</div>
+																	</div>
+																	<div class="guest_suggestion">
+																		<span>Ages 2-12.</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="code_right">
+														<div class="code_btn_wrap">
+															<div class="input_div">
+																<input type="text" name="code" id="code" placeholder="Got a code? Enter it here">
+															</div>
+															<div class="search_btn">
+																<a href="#!" class="btn btn-primary" title="search for rooms">Search for rooms</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</nav>
+
+		</header>
+
+		<main class="site-main">
+
+			<section data-scroll-section class="section-parent banner-section home parallax-block">
+				<div class="parallax-bg" style="background-image: url('images/banner-home.jpg');" data-scroll data-scroll-speed="-3"></div>
+				<div class="parallax-over banner-caption">
+					<h1 class="banner-title" data-splitting>A place that’s perfectly you.</h1>
+					<p class="banner-text">Step inside, and you’ll find that perfectly suited balance between a hotel and residential experience.</p>
+					<a class="btn" href="#!" title="Away we go">Away we go <i class="fal fa-chevron-right"></i></a>
+				</div>
+				<div class="banner-logo-wrap" data-scroll data-scroll-speed="3" data-scroll-position="top">
+					<a href="index.html">
+						<img src="images/logo-banner.png" alt="Logo Banner" />
+					</a>
+				</div>
+			</section>
+
+			<section class="section_main">
+				<div data-scroll-section class="section-parent breath_section p-8">
+					<div class="container">
+						<div class="breath_banner reveal-image big_cut left_cut parallax-block">
+							<div class="parallax-bg" style="background-image: url('images/and-breathe-sec-bg.png');" data-scroll data-scroll-speed="-3"></div>
+							<div class="parallax-over breath_txt">
+								<div class="primary_title">
+									<h2 data-splitting>And...</h2>
+									<h2 data-splitting class="m_left">breath.</h2>
+								</div>
+								<div class="breath_content primary_content">
+									<p><span class="d-none d-md-inline-block">From business trips of virtually any length, to next-level staycations or family getaways
+											with that extra bit of wow-factor, we’ll make Monday to Friday work for you. (And some much needed me time too.)</span> No
+										matter how hectic, complicated or crazy it gets out there, we'll make Monday to Friday work for you. (And some much needed me
+										time, too.)</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div data-scroll-section class="section-parent little_lux_section">
+					<div class="little_background p-8">
+						<div class="container">
+							<div class="lux_content_wrap">
+								<div class="lux_content_txt">
+									<div class="luxe_title">
+										<div class="primary_title">
+											<h2 data-splitting>A little luxe,</h2>
+											<h2 class="m_left" data-splitting>a little laid back.</h2>
+										</div>
+									</div>
+									<div class="primary_content luxe_txt">
+										<p>In our world, no two hotels are alike. Imagine architecture that tells its own unique story, with all the space you need to
+											write yours. It’s the freedom to discover a new city, or just stay in and lounge the night away. (‘Cause, why would you want to
+											leave anyway?)</p>
+										<div class="multi_link">
+											<ul>
+												<li><a href="#" class="hover_light">Sydney</a></li>
+												<li><a href="#" class="hover_light">Brisbane</a></li>
+												<li><a href="#" class="hover_light">Canberra</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="lux_img">
+									<div class="reveal-image big_cut right_cut">
+										<div class="parallax-block-img">
+											<div class="parallax-bg" data-scroll data-scroll-speed="-3">
+												<img src="images/little_luxe_home.png" alt="Little Lux" class="d-none d-md-block">
+												<img src="images/little_lux.jpg" alt="Little Lux" class="d-md-none">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-scroll-section class="section-parent arrive_section">
+					<div class="arrive_bg">
+						<div class="container">
+							<div class="arrive_content_wrap lux_content_wrap">
+								<div class="lux_content_txt">
+									<div class="luxe_title">
+										<div class="primary_title">
+											<h2 data-splitting>A place to</h2>
+											<h2 class="m_left" data-splitting>aria expected</h2>
+										</div>
+									</div>
+									<div class="primary_content">
+										<p>We know that different stays shouldn’t need a different hotel every time. That’s why we created the brand-new concept of Hotel
+											Living. Expect detail in every detail. Designer amenities and little surprises that make every day a bit more luxe. And all the
+											freedom that comes with having your own special place in the heart of the city. Welcome back to A by Adina.</p>
+									</div>
+								</div>
+								<div class="lux_img">
+									<!-- <div class="reveal-image big_right_cut big_left_cut_mobile" data-direction-mobile="left"> -->
+									<div class="reveal-image bigMob_cut right_cut left_cut_mobile" data-direction-mobile="left">
+										<div class="parallax-block-img">
+											<div class="parallax-bg" data-scroll data-scroll-speed="-3">
+												<img src="images/arrive_home.png" alt="Arrive Home" class="">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-scroll-section class="live_desti_section">
+					<div class="section-parent flavour_section">
+						<div class="container">
+							<div class="flavour_content_wrap">
+								<div class="flav_title mobile">
+									<div class="primary_title">
+										<h2 class="m_left first_title" data-splitting>Flavour to</h2>
+										<h2 data-splitting>delight your</h2>
+										<h2 class="m_left" data-splitting>inner foodie</h2>
+									</div>
+								</div>
+								<div class="flav_img_wrap">
+									<div class="img_left reveal-image small_cut right_cut">
+										<div class="parallax-block-img">
+											<div class="parallax-bg" data-scroll data-scroll-speed="-3">
+												<img src="images/cutlery_1.png" alt="Cutlery Image">
+											</div>
+										</div>
+									</div>
+									<div class="img_right reveal-image small_cut right_cut">
+										<div class="parallax-block-img">
+											<div class="parallax-bg" data-scroll data-scroll-speed="-3">
+												<img src="images/plate_1.png" alt="Plate Image">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="flav_content_txt">
+									<div class="flav_title">
+										<div class="primary_title">
+											<h2 class="m_left first_title" data-splitting>Flavour to</h2>
+											<h2 data-splitting>delight your</h2>
+											<h2 class="m_left" data-splitting>inner foodie</h2>
+										</div>
+									</div>
+									<div class="primary_content">
+										<p>Savour the best of Contemporary Australian cuisine, all served with a warm personal touch. From the innovative Italian flair of
+											Maurice Terzini, to the indulgent decadence of Famous Person B, your delectable selection of food and bar destinations await.
+										</p>
+										<div class="multi_link">
+											<ul>
+												<li><a href="#">Sydney Drink and Dine</a></li>
+												<li><a href="#">Brisbane Drink and Dine</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-parent live_sec_wrap">
+						<div class="live_desti_content">
+							<div class="container">
+								<div class="live_desti_wrap lux_content_wrap">
+									<div class="lux_content_txt">
+										<div class="luxe_title">
+											<div class="primary_title">
+												<h2 data-splitting>Live the high life</h2>
+												<h2 class="m_left" data-splitting>at Destination A.</h2>
+											</div>
+										</div>
+										<div class="primary_content">
+											<p>The top floors of our hotels are exclusively reserved for our guests who want to take their experience to the next level.
+												With more ways to curate your stay, Destination A makes a destination out of any occasion.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="live_desti_image">
+							<div class="live_desti_bgimg">
+								<img src="images/sydney_home.png" alt="Live Destination Cut">
+								<div class="shape_left_wrap"></div>
+								<div class="shape_right_wrap">
+									<div class="shape_right">
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-parent get_form_section">
+						<div class="get_form_bg">
+							<div class="container">
+								<div class="get_form_wrap">
+									<div class="form_title">
+										<h4>Get on the A-list.</h4>
+										<p>Be the first to receive curated offers when you book with us.</p>
+									</div>
+									<div class="form_content">
+										<form>
+											<div class="form_name form_group">
+												<input type="text" name="first_name" placeholder="First name">
+											</div>
+											<div class="form_mail form_group">
+												<input type="email" name="your-email" placeholder="Email address">
+											</div>
+											<div class="form_button form_group">
+												<input type="submit" name="sign_btn" value="Sign me up">
+											</div>
+											<div class="checkbox_condition">
+												<div class="checkbox_content">
+													<span>Subscribe me to:</span>
+													<div class="checkbox_wrap">
+														<label class="checkbox_input">
+															A by Adina
+															<input type="checkbox" name="adina">
+															<span class="checkmark"></span>
+														</label>
+														<label class="checkbox_input">
+															TFE Hotels
+															<input type="checkbox" name="tfeHotels">
+															<span class="checkmark"></span>
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="form_condition form_group">
+												<p>By signing up, I accept the <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a></p>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-scroll-section class="section-parent photo_gallry_sec">
+					<div class="gallary_wrap">
+						<div class="photo_wrap">
+							<img src="images/photo_gallry_1.png" alt="Photo Gallry 1">
+						</div>
+						<div class="photo_wrap">
+							<img src="images/photo_gallry_2.png" alt="Photo Gallry 2">
+						</div>
+						<div class="photo_wrap">
+							<img src="images/photo_gallry_3.png" alt="Photo Gallry 3">
+						</div>
+						<div class="photo_wrap">
+							<img src="images/photo_gallry_4.png" alt="Photo Gallry 4">
+						</div>
+						<div class="photo_wrap">
+							<img src="images/photo_gallry_5.png" alt="Photo Gallry 5">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer data-scroll-section class="site-footer">
+			<div class="footer_wrap primary">
+				<div class="container">
+					<div class="footer_top">
+						<div class="row">
+							<div class="col-lg-3 col-6">
+								<div class="footer_section">
+									<div class="footer_title">
+										<span>Our Story</span>
+									</div>
+									<div class="footer_content">
+										<ul>
+											<li><a href="#">Curated offers</a></li>
+											<li><a href="#">Careers</a></li>
+											<li><a href="#">Media Lounge</a></li>
+											<li><a href="#">Gift an A experience</a></li>
+											<li><a href="#">Privacy Policy</a></li>
+											<li><a href="#">Term and Legal</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="footer_section">
+									<div class="footer_title">
+										<span>Support</span>
+									</div>
+									<div class="footer_content">
+										<ul>
+											<li><a href="#">Manage my bookings</a></li>
+											<li><a href="#">Frequently asked questions</a></li>
+											<li><a href="#">Book with us guarantee</a></li>
+											<li><a href="#">Longer stays</a></li>
+											<li><a href="#">Contact us</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="footer_section">
+									<div class="footer_title">
+										<span>Destinations</span>
+									</div>
+									<div class="footer_content">
+										<ul>
+											<li><a href="#">Sydney</a></li>
+											<li><a href="#">Canberra</a></li>
+											<li><a href="#">Brisbane</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="footer_section">
+									<div class="footer_title">
+										<span>Contact us</span>
+									</div>
+									<div class="footer_content">
+										<ul>
+											<li>E: <a href="#">Hello@AbyAdina.com.au</a></li>
+											<li>T: 012345678</li>
+										</ul>
+									</div>
+								</div>
+								<div class="footer_section">
+									<div class="footer_title">
+										<span>Follow Us</span>
+									</div>
+									<div class="footer_content follow_section">
+										<ul>
+											<li><a href="#"><i class="fab fa-instagram"></i>AbyAdina</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer_bottom">
+						<p class="copyrighttxt">© 2020 <a href="#">AbyAdina.com</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="footer_wrap secondary">
+				<div class="container">
+					<div class="footer_section">
+						<h3>Contact Us</h3>
+						<ul>
+							<li>E: <a href="#">Hello@abyadina.com</a></li>
+							<li>T: <span>13 86 42</span></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms & Conditions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<a class="back-to-top fixed-element" href="#">
+		<i class="fal fa-long-arrow-up"></i>
+	</a>
+
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+	<script src="js/locomotive-scroll.min.js"></script>
+
+	<script src="js/gsap-latest-beta.min.js"></script>
+	<!-- <script src="js/TweenLite.min.js"></script>
+	<script src="js/TimelineMax.min.js"></script> -->
+
+	<script src="js/ScrollMagic.min.js"></script>
+	<script src="js/animation.gsap.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.velocity.min.js"></script> -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+	<script src="js/splitting.min.js"></script>
+
+	<script src="js/moment.min.js"></script>
+	<script src="js/daterangepicker.js"></script>
+
+	<script src="js/slick.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
